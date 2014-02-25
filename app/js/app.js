@@ -16,14 +16,14 @@ $(function() {
 
   var newAudio = function(userId){
     console.log('new audio');
-    rhizome.message('/interactive/new_audio', [userId]);
+    rhizome.send('/interactive/new_audio', [userId]);
     $visualSection.hide();
     $audioSection.show();
   };
 
   var newVisual = function(userId){
     console.log('new visual');
-    rhizome.message('/interactive/new_visual', [userId]);
+    rhizome.send('/interactive/new_visual', [userId]);
     $audioSection.hide();
     $visualSection.show();
   };
@@ -51,16 +51,16 @@ $(function() {
     gyro.startTracking(function(o) {
       var args = [userId, o.x, o.y, o.z, o.alpha, o.beta, o.gamma];
       if(type===AUDIO) {
-        rhizome.message('/interactive/update_audio', args);
+        rhizome.send('/interactive/update_audio', args);
       } else if(type===VISUAL) {
-        rhizome.message('/interactive/update_visual', args);
+        rhizome.send('/interactive/update_visual', args);
       }
 
     });
 
     $('#changeSoundBtn').on('click', function(){
       var args = [userId];
-      rhizome.message('/interactive/change', args);
+      rhizome.send('/interactive/change', args);
     });
 
   })
