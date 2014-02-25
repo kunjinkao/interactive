@@ -1,23 +1,18 @@
 body {
   background-color: black;
+  color: white;
 }
 
 h1 {
   color: white;
 }
 
-#changeSoundBtn {
-  height: 100px;
-  font-size: 40px;
+#status p {
+  font-size: 10px;
+  color: #666;
 }
 
-#footer{
-    height: 30px;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    line-height: 30px;
-    color: #aaa;
-    text-align: center;
-    width: 100%;
+#changeSoundBtn {
+  height: 80px;
+  font-size: 40px;
 }

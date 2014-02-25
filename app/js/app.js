@@ -5,6 +5,7 @@ $(function() {
 
   $visualSection = $('#visual');
   $audioSection = $('#audio');
+  $statusData = $("#status-data");
 
   var dispatch = function(userId){
     if(userId % 3 === 1) {
@@ -50,6 +51,9 @@ $(function() {
 
     gyro.startTracking(function(o) {
       var args = [userId, o.x, o.y, o.z, o.alpha, o.beta, o.gamma];
+      var status = args.slice(1).join(", ");
+      $statusData.text(status);
+
       if(type===AUDIO) {
         rhizome.send('/interactive/update_audio', args);
       } else if(type===VISUAL) {
