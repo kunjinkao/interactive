@@ -1,0 +1,24 @@
+{
+  "name": "interactive",
+  "version": "0.0.1",
+  "authors": [
+    "Sean Lee <iseansay@gmail.com>"
+  ],
+  "description": "interactive control for kunjinkao",
+  "keywords": [
+    "osc"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gyro.js": "~1.0.0",
+    "foundation": "~5.1.1"
+  }
+}

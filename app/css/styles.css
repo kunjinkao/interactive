@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+#changeSoundBtn {
+  height: 100px;
+  font-size: 40px;
+}
+
+#footer{
+    height: 30px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    line-height: 30px;
+    color: #aaa;
+    text-align: center;
+    width: 100%;
+}
