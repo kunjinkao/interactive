@@ -1,10 +1,19 @@
-Instructions
---------------
 
-This folder contains a full **rhizome** application. It is a very simple example of two ways communication between a Pd/SuperCollider patch and a webpage.
+This is an example application of [rhizome][rhizome], a web server for  participative performances and installations. 
 
-To start the example, open your terminal, go to the example folder and run `rhizome config.js`. This should start the server and print `rhizome ready`. Once the server is started, open your web browser, and go to the address [http://localhost:8001/example/index.html](http://localhost:8001/example/index.html). You should see a very simple web page with two pannels. Now, open either the SuperCollider or Pure Data patch (*osc-trace.sc* or *osc-trace.pd*). They will allow you to monitor OSC messages coming in.
+Basically, participants can use their mobile device to visit the rhizome page, and we use javascript to detect Gyroscope data (modern browsers please), send OSC command to [SuperCollider](http://supercollider.github.io) through [rhizome][rhizome], changing the audio and visuals.
 
-Time to play! Click anywhere on the upper pannel, and you should see the messages coming into Pure Data or SuperCollider. If you open the same page into another tab, and click again, you see that messages are sent as well but the first argument is different. This is because we send the **user id** as first argument. Each connected participant has a unique id that allows our installation to recognize him.
+[rhizome]: https://github.com/sebpiq/rhizome
 
-We can also send messages the other way around. In the patches provided there should be something to do that. Send a message and observe the results on the web page!
+## Setup
+
+1. Simpley run `npm install -g rhizome` to install rhizome, for infomation on the [github repo](https://github.com/sebpiq/rhizome)
+
+2. Install all the bower components use `bower install` (`npm install -g bower` to install bower)
+
+3. Take a look at the supercollider [file](scfile)
+
+
+[scfile]: https://github.com/kunjinkao/interactive/blob/master/interactive.scd
+
+
