@@ -11,8 +11,9 @@ Basically, participants can use their mobile device to visit the rhizome page, a
 
 2. Install all the bower components use `bower install` (`npm install -g bower` to install bower)
 
-3. Take a look at the supercollider [file](scfile)
+3. Take a look at the supercollider [file](scfile), evaluating some code.
 
+4. `rhizome config.js` to open the server, visit `localhost:8000`
 
 [scfile]: https://github.com/kunjinkao/interactive/blob/master/interactive.scd
 
