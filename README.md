@@ -23,6 +23,6 @@ Basically, participants can use their mobile device to visit the rhizome page, a
 
 ## License
 
-The processing sketch is based on Jack Jepson's [work](http://www.openprocessing.org/sketch/87338), released under [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
+The processing sketch is based on Jack Jepson's [work](http://www.openprocessing.org/sketch/87338), licensed under [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) and [GNU GPL license](http://creativecommons.org/licenses/GPL/2.0/).
 
 All other code is released under [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/), it's all yours.
