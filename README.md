@@ -13,7 +13,7 @@ Basically, participants can use their mobile device to visit the rhizome page, a
 
 4. Start the processing [sketch][sketch]
 
-4. Take a look at the supercollider [file](scfile), evaluating some code(read comments as you go)
+4. Take a look at the supercollider [file][scfile], evaluating some code(read comments as you go)
 
 5. `rhizome config.js` to open the server, visit `localhost:8000`
 
