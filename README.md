@@ -7,7 +7,7 @@ Basically, participants can use their mobile device to visit the rhizome page, a
 
 ## Setup
 
-1. Simpley run `npm install -g rhizome` to install rhizome, more docs on the [github repo](https://github.com/sebpiq/rhizome)
+1. Simpley run `npm install -g rhizome-server` to install rhizome, more docs on the [github repo](https://github.com/sebpiq/rhizome)
 
 2. Install all the bower components use `bower install` (`npm install -g bower` to install bower)
 
